@@ -43,7 +43,7 @@ TH1D *hdPhiRawbce = new TH1D("hdPhiRawbce","hdPhiRawbce",Phibin, -PI,PI);
 TH1D *hrefmult = new TH1D("hrefmult","hrefmult",1000,0,500);
 TH1D *hept = new TH1D("hept","hept",100,0.,20.);
 
-void analyze()
+void Loop()
 {
 
 
